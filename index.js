@@ -9,10 +9,10 @@
         registeredInModuleLoader = true;
     }
     if (!registeredInModuleLoader) {
-        var OldC2Pin = window.C2Pin;
-        var api = window.C2Pin = factory();
+        var OldC2py = window.c2py;
+        var api = window.c2py = factory();
         api.noConflict = function() {
-            window.C2Pin = OldC2Pin;
+            window.c2py = OldC2py;
             return api;
         };
     }
