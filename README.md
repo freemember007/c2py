@@ -1,6 +1,14 @@
 # C2Pin
 JS将中文转化为拼音首字母字符串的小插件
 
+fork自Alfred-kai/C2Pin
+
+修改了获取首字母函数(firstChar)：
+
+1. 英文和数字原样输出
+
+2. 小写转大写
+
 # Installation #
  **Direct download**
 
