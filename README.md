@@ -1,4 +1,4 @@
-# C2Pin
+# c2py
 JS将中文转化为拼音首字母字符串的小插件
 
 fork自Alfred-kai/C2Pin
@@ -14,15 +14,15 @@ fork自Alfred-kai/C2Pin
 
 Download the script here and include it (unless you are packaging scripts somehow else):
 
-`<script src="/path/to/c2pin/index.js"></script>`
+`<script src="/path/to/c2py/index.js"></script>`
 
 **Package Managers**
 
-C2Pin supports npm and Bower under the name  c2pin
+c2py supports npm and Bower under the name  c2py
 
 **Import the library**
 
-`import C2Pin from 'c2pin'`
+`import c2py from 'c2py'`
 
 # Basic Usage 
 
@@ -30,17 +30,17 @@ C2Pin supports npm and Bower under the name  c2pin
 
 Transfer Chinese to Pinyin with first letter
 
-`C2Pin.firstChar()`
+`c2py.firstChar()`
 
 Transfer Chinese to Pinyin with full letter
 
-`C2Pin.fullChar()`
+`c2py.fullChar()`
 
 
 # Namespace conflicts
 
-If there is any danger of a conflict with the namespace C2Pin, the noConflict method will allow you to define a new namespace and preserve the original one.
+If there is any danger of a conflict with the namespace c2py, the noConflict method will allow you to define a new namespace and preserve the original one.
 
-    // Assign the C2Pin api to a different variable and restore the original "window.C2Pin"
-    var C2PinCopy = C2Pin.noConflict();
-    C2Pin.firstChar();
+    // Assign the c2py api to a different variable and restore the original "window.c2py"
+    var c2pyCopy = c2py.noConflict();
+    c2py.firstChar();
